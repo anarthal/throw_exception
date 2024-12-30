@@ -6,7 +6,7 @@
 #ifndef BOOST_EXCEPTION_274DA366004E11DCB1DDFE2E56D89593
 #define BOOST_EXCEPTION_274DA366004E11DCB1DDFE2E56D89593
 
-#ifndef BOOST_CXX20_MODULE
+#ifndef BOOST_USE_MODULES
 #include <boost/assert/source_location.hpp>
 #include <boost/config.hpp>
 #include <exception>
