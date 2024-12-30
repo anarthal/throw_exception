@@ -8,7 +8,7 @@ project(boost_throw_exception VERSION "${BOOST_SUPERPROJECT_VERSION}" LANGUAGES 
 if (BOOST_CXX20_MODULE)
   add_library(boost_throw_exception STATIC)
   boost_set_cxx20_module_settings(boost_throw_exception)
-  target_sources(boost_throw_exception PUBLIC FILE_SET CXX_MODULES FILES modules/throw_exception.cxx)
+  target_sources(boost_throw_exception PUBLIC FILE_SET CXX_MODULES FILES modules/boost_throw_exception.cppm)
   set(__scope PUBLIC)
 else()
   add_library(boost_throw_exception INTERFACE)
