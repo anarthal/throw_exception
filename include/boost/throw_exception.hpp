@@ -19,10 +19,7 @@
 //  http://www.boost.org/libs/throw_exception
 
 
-#ifdef BOOST_CXX20_MODULE
-import std;
-import boost.assert;
-#else
+#ifndef BOOST_CXX20_MODULE
 #include <boost/assert/source_location.hpp>
 #include <boost/config.hpp>
 #include <boost/config/workaround.hpp>

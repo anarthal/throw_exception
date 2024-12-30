@@ -6,4 +6,9 @@ module;
 
 export module boost.throw_exception;
 
+import std;
+import boost.assert;
+
+extern "C++" {
 #include <boost/throw_exception.hpp>
+}
