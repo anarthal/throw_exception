@@ -12,7 +12,7 @@ if (BOOST_USE_MODULES)
   set(__scope PUBLIC)
 else()
   add_library(boost_throw_exception INTERFACE)
-  set(__scope PRIVATE)
+  set(__scope INTERFACE)
 endif()
 
 add_library(Boost::throw_exception ALIAS boost_throw_exception)
